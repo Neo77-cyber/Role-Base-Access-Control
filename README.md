@@ -36,23 +36,23 @@ Follow these steps to get the RBAC App up and running on your local development 
 
 2. **Configure Environment Variables:
 
-Create a .env file in the project root and configure necessary environment variables like MongoDB connection URI, JWT secrets, etc.
+- Create a .env file in the project root and configure necessary environment variables like MongoDB connection URI, JWT secrets, etc.
 
 3. **Build the Docker Image:
 
-Build the Docker image for the RBAC App:
+- Build the Docker image for the RBAC App:
 `docker build -t role-base-app .
 `
 
 4. **Run the Docker Container:
 
-Start the RBAC App as a Docker container:
+- Start the RBAC App as a Docker container:
 `docker run -p 3000:3000 --env-file .env role-base-app
 `
 
 5. **Access the App:
 
-Open your web browser and navigate to http://localhost:3000 to access the RBAC App.
+- Open your web browser and navigate to http://localhost:3000 to access the RBAC App.
 
 ## Usage
 
